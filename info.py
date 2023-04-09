@@ -15,7 +15,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '12272394'))
 API_HASH = environ.get('API_HASH', '9784aa2932ceb851f27e4b89bba5cd57')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6045615378:AAHqA8eohV8BkpQCahG5RPz50CdhV3z3PA8")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5838523689:AAGUEsmtAjgBXn_6aQIXvDANB2EQT0mdLoM")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -37,9 +37,9 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ayush1104:#Ayush1104@ayush.qetbcuz.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ayush1104:X7hLBY6naB05llpt@ayush.qetbcuz.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "ayush")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ayush')
 
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cynitesupport')
